@@ -1,0 +1,22 @@
+{
+	"name": "commitlint",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: noo test specified\" && exit 1"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^8.3.5",
+		"@commitlint/config-conventional": "^8.3.4",
+		"husky": "^4.2.5"
+	},
+	"dependencies": {}
+}
